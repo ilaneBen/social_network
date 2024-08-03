@@ -1,0 +1,138 @@
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-sidebar {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-userpic img {
+    margin-bottom: 5%;
+    width: 20%;
+    border-radius: 50%;
+}
+.profile-userpic {
+    width: 50%;
+}
+
+.profile-usertitle-name {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.profile-usertitle-job {
+    font-size: 14px;
+    color: #000000;
+}
+
+.profile-userinfo ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.profile-userinfo .list-group-item {
+    padding: 10px 15px;
+    border: none;
+    background: none;
+}
+
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.postdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.postform{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    width: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background: rgba(0, 2, 113, 0.174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.imgpost{
+    border-radius: 50%;
+    width: 6%;
+}
+
+.userpost{
+    background-color: rgba(128, 128, 128, 0.475);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.postfull{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-following{
+    width: 40%;
+}
+.profile-followers{
+    width: 50%;
+}
+.profile-userinfo{
+    width: 50%;
+}
+
+
+.usersearch{
+    border-radius: 10px 10px 0 0;
+    padding-top: 2%;
+    background-color: white;
+    width: 30%;
+    margin-top: 2%;
+    text-align: center;
+}
+.ulsearch{
+    border-radius: 0 0 10px 10px;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.ulsearch a{
+    width: 204px;
+    display: flex;
+    color: #000000 !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formsearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

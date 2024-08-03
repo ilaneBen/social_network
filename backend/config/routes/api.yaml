@@ -1,0 +1,5 @@
+# config/routes/api.yaml
+api_posts:
+    path: /api/posts
+    controller: App\Controller\Api\PostController::index
+    methods: [GET]

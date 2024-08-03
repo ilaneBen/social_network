@@ -1,0 +1,9 @@
+{# templates/profile/index.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+    <div id="root" data-posts="{{ posts|json_encode }}"></div>
+{% endblock %}
